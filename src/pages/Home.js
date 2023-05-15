@@ -2,51 +2,6 @@ import React from 'react';
 function Home (props){
     return (
         <React.Fragment>
-            <div className="navbar navbar-expand-lg bg-white shadow-lg">
-            <div className="container">
-                <button classNameName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                
-                <a className="navbar-brand" href="index.html">
-                    Crispy Kitchen
-                </a>
-
-                <div className="d-lg-none">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
-                            <a className="nav-link active" href="index.html">Home</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="about.html">Story</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="menu.html">Menu</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="news.html">Our Updates</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="d-none d-lg-block">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </div>
-
         <main>
 
             <section className="hero">
@@ -162,11 +117,12 @@ function Home (props){
                     </div>
                 </div>
 
-                <div className="video-wrap">
+                <div className="img-wrap">
                     <video autoplay="" loop="" muted="" className="custom-video" poster="">
                         <source src="video/production_ID_3769033.mp4" type="video/mp4"/>
                         	Your browser does not support the video tag.
                     	</video>
+                    {/* <img src="/public/images/home/homeImg1.jpg" /> */}
                 </div>
 
                 <div className="overlay"></div>
@@ -183,13 +139,13 @@ function Home (props){
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" className="img-fluid menu-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/products/2023/05/08/large/342720443_617543967096001_1356484114668483016_n_1683528923.jpg" className="img-fluid menu-image" alt=""/>
 
-                                    <span className="menu-tag bg-warning">Breakfast</span>
+                                    <span className="menu-tag bg-warning">Dinner</span>
                                 </div>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 className="mb-0">Morning Fresh</h4>
+                                    <h4 className="mb-0">BÒ SỐT TIÊU ĐEN</h4>
 
                                     <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>12.50</span>
 
@@ -213,13 +169,13 @@ function Home (props){
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <img src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" className="img-fluid menu-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/products/2023/05/08/large/342702175_217389224337088_589677272958336657_n_1683528885.jpg" className="img-fluid menu-image" alt=""/>
 
                                     <span className="menu-tag bg-warning">Lunch</span>
                                 </div>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 className="mb-0">Tooplate Soup</h4>
+                                    <h4 className="mb-0">BÒ SỐT TIÊU ĐEN + BÁNH BAO</h4>
 
                                     <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>24.50</span>
 
@@ -243,13 +199,13 @@ function Home (props){
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" className="img-fluid menu-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/products/2023/05/08/large/344595423_930630421391829_3761460050034676019_n_1683515996.jpg" className="img-fluid menu-image" alt=""/>
 
-                                    <span className="menu-tag bg-warning">Dinner</span>
+                                    <span className="menu-tag bg-warning">Breakfast</span>
                                 </div>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 className="mb-0">Premium Steak</h4>
+                                    <h4 className="mb-0">XÔI CHIÊN</h4>
 
                                     <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>45</span>
 
@@ -465,60 +421,6 @@ function Home (props){
             </section>
 
         </main>
-
-        <footer className="site-footer section-padding">
-            
-            <div className="container">
-                
-                <div className="row">
-
-                    <div className="col-12">
-                        <h4 className="text-white mb-4 me-5">Crispy Kitchen</h4>
-                    </div>
-
-                    <div className="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Location</h6>
-
-                        <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
-
-                        <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
-                    </div>
-
-                    <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Opening Hours</h6>
-
-                        <p className="mb-2">Monday - Friday</p>
-
-                        <p>10:00 AM - 08:00 PM</p>
-
-                        <p>Tel: <a href="tel: 010-02-0340" className="tel-link">010-02-0340</a></p>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Social</h6>
-
-                        <ul className="social-icon">
-                            <li><a href="#" className="social-icon-link bi-facebook"></a></li>
-
-                            <li><a href="#" className="social-icon-link bi-instagram"></a></li>
-
-                            <li><a href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
-                            	 className="social-icon-link bi-twitter"></a></li>
-
-                            <li><a href="#" className="social-icon-link bi-youtube"></a></li>
-                        </ul>
-                    
-                        <p className="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
-                        <br/>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-                        
-                    </div>
-
-                </div>
-                
-             </div>
-             
-        </footer>
-
         <div className="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-xl">
                 <div className="modal-content">
