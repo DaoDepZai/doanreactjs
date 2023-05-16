@@ -59,7 +59,7 @@ function Header(props) {
 
             </div>
         </nav>
-        <div className="modal fade show" id="BookingModal " ref={ref} tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true" >
+        <div className="modal fade show" id="BookingModal " ref={ref} tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true" onClick={closeModal}>
                 <div className="modal-dialog modal-dialog-centered modal-xl">
                 <div className="modal-content">
                         <div className="modal-header">
