@@ -10,29 +10,29 @@ function Footer (props) {
                 <div className="row">
 
                     <div className="col-12">
-                        <h4 className="text-white mb-4 me-5">Crispy Kitchen</h4>
+                        <h4 className="text-white mb-4 me-5">Bò Tơ Quán Mộc</h4>
                     </div>
 
                     <div className="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Location</h6>
+                        <h6 className="text-white mb-lg-4 mb-3">Địa điểm</h6>
 
-                        <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                        <p>102 Thái Thịnh, Đống Đa, Hà Nội</p>
 
-                        <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
+                        <a href="https://www.google.co.th/maps/place/102+P.+Th%C3%A1i+Th%E1%BB%8Bnh,+Th%E1%BB%8Bnh+Quang,+%C4%90%E1%BB%91ng+%C4%90a,+H%C3%A0+N%E1%BB%99i,+Vietnam/@21.0082992,105.8178483,552m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3135ab7d51e06cc5:0xec5664bc38d39b34!8m2!3d21.0082992!4d105.8204232!16s%2Fg%2F11c5fnp8g2?hl=en" className="custom-btn btn btn-dark mt-2">Vị trí</a>
                     </div>
 
                     <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Opening Hours</h6>
+                        <h6 className="text-white mb-lg-4 mb-3">Giờ mở cửa</h6>
 
-                        <p className="mb-2">Monday - Friday</p>
+                        <p className="mb-2">Thứ 2 - Thứ 7</p>
 
-                        <p>10:00 AM - 08:00 PM</p>
+                        <p>9:00 AM - 08:00 PM</p>
 
                         <p>Tel: <a href="tel: 010-02-0340" className="tel-link">010-02-0340</a></p>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
-                        <h6 className="text-white mb-lg-4 mb-3">Social</h6>
+                        <h6 className="text-white mb-lg-4 mb-3">Mạng xã hội</h6>
 
                         <ul className="social-icon">
                             <li><a href="#" className="social-icon-link bi-facebook"></a></li>
@@ -45,8 +45,8 @@ function Footer (props) {
                             <li><a href="#" className="social-icon-link bi-youtube"></a></li>
                         </ul>
                     
-                        <p className="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
-                        <br/>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                        <p className="copyright-text tooplate-mt60">© Bò tơ quán mộc. All Right Reserved
+                        </p>
                         
                     </div>
 

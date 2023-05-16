@@ -11,7 +11,7 @@ function Home (props){
                         <div className="col-lg-5 col-12 m-auto">
                             <div className="heroText">
 
-                                <h1 className="text-white mb-lg-5 mb-3">Delicious Steaks</h1>
+                                <h1 className="text-white mb-lg-5 mb-3">BÒ - TƠ QUÁN - MỘC</h1>
 
                                 <div className="c-reviews my-3 d-flex flex-wrap align-items-center">
                                     <div className="d-flex flex-wrap align-items-center">
@@ -36,16 +36,16 @@ function Home (props){
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="carousel-image-wrap">
-                                            <img src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" className="img-fluid carousel-image" alt=""/>
+                                            <img src="https://botoquanmoc.com/images/slideshow/2019/05/28/compress/slide1_1559039241.jpg" className="img-fluid carousel-image" alt=""/>
                                         </div>
                                         
                                         <div className="carousel-caption">
                                             <span className="text-white">
                                                 <i className="bi-geo-alt me-2"></i>
-                                                Manhattan, New York
+                                                Thái Thịnh, Hà Nội
                                             </span>
 
-                                            <h4 className="hero-text">Fine Dining Restaurant</h4>
+                                            <h4 className="hero-text">THƯỞNG THỨC BÒ TƠ THƯỢNG HẠNG</h4>
                                         </div>
                                     </div>
 
@@ -58,7 +58,7 @@ function Home (props){
                                             <div className="d-flex align-items-center">
                                                 <h4 className="hero-text">Steak</h4>
 
-                                                <span className="price-tag ms-4"><small>$</small>26.50</span>
+                                                <span className="price-tag ms-4"><small>Đ</small>26.50</span>
                                             </div>
 
                                             <div className="d-flex flex-wrap align-items-center">
@@ -84,7 +84,7 @@ function Home (props){
                                             <div className="d-flex align-items-center">
                                                 <h4 className="hero-text">Sausage Pasta</h4>
 
-                                                <span className="price-tag ms-4"><small>$</small>18.25</span>
+                                                <span className="price-tag ms-4"><small>Đ</small>18.25</span>
                                             </div>
 
                                             <div className="d-flex flex-wrap align-items-center">
@@ -147,7 +147,7 @@ function Home (props){
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">BÒ SỐT TIÊU ĐEN</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>12.50</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4">119.000<small>Đ</small></span>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">4.3/5</h6>
@@ -177,7 +177,7 @@ function Home (props){
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">BÒ SỐT TIÊU ĐEN + BÁNH BAO</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>24.50</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4">185.000<small>Đ</small></span>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">3/5</h6>
@@ -207,9 +207,9 @@ function Home (props){
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">XÔI CHIÊN</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>45</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4">45.000<small>Đ</small></span>
 
-                                    <del className="ms-4"><small>$</small>150</del>
+                                    <del className="ms-4">150<small>Đ</small></del>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">3/5</h6>
@@ -231,17 +231,17 @@ function Home (props){
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" className="img-fluid menu-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/products/2023/05/08/large/119205895_999066027226801_8360464199140109388_n_1683520069.jpg" className="img-fluid menu-image" alt=""/>
 
                                     <span className="menu-tag bg-warning">Dinner</span>
                                 </div>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
-                                    <h4 className="mb-0">Seafood Set</h4>
+                                    <h4 className="mb-0">CHÁO TIM BÒ</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>86</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4">95.000<small>Đ</small></span>
 
-                                    <del className="ms-4"><small>$</small>124</del>
+                                    <del className="ms-4">124.000<small>Đ</small></del>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">3/5</h6>
@@ -260,7 +260,7 @@ function Home (props){
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-12">
+                        {/* <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
                                     <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" className="img-fluid menu-image" alt=""/>
@@ -271,7 +271,7 @@ function Home (props){
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Burger Set</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>20.50</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4"><small>Đ</small>20.50</span>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">4.3/5</h6>
@@ -301,7 +301,7 @@ function Home (props){
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Healthy Soup</h4>
 
-                                    <span className="price-tag bg-white shadow-lg ms-4"><small>$</small>34.20</span>
+                                    <span className="price-tag bg-white shadow-lg ms-4"><small>Đ</small>34.20</span>
 
                                     <div className="d-flex flex-wrap align-items-center w-100 mt-2">
                                         <h6 className="reviews-text mb-0 me-3">3/5</h6>
@@ -318,7 +318,7 @@ function Home (props){
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
@@ -330,19 +330,19 @@ function Home (props){
                 <div className="container">
                     <div className="row">
 
-                        <h2 className="text-center mb-lg-5 mb-4">News &amp; Events</h2>
+                        <h2 className="text-center mb-lg-5 mb-4">Tin tức &amp; Sự kiện</h2>
 
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" className="img-fluid news-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/news/2023/04/27/large/343658403_959895225355526_2705148923649967748_n_1682583011.jpg" className="img-fluid news-image" alt=""/>
                                 </a>
                                 
                                 <div className="news-text-info news-text-info-large">
-                                    <span className="category-tag bg-danger">Featured</span>
+                                    <span className="category-tag bg-danger">27/04/23</span>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="news-detail.html" className="news-title-link">Healthy Lifestyle and happy living tips</a>
+                                        <a href="news-detail.html" className="news-title-link">[HÀ NỘI], BÒ TƠ QUÁN MỘC CẬP NHẬP MENU MỚI HÈ 2023</a>
                                     </h5>
                                 </div>
                             </div> 
@@ -351,14 +351,14 @@ function Home (props){
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" className="img-fluid news-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/news/2023/04/20/resized/bia-web_1681979603.png" className="img-fluid news-image" alt=""/>
                                 </a>
                                 
                                 <div className="news-text-info news-text-info-large">
-                                    <span className="category-tag bg-danger">Featured</span>
+                                    <span className="category-tag bg-danger">20/04/23</span>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="news-detail.html" className="news-title-link">How to make a healthy meal</a>
+                                        <a href="news-detail.html" className="news-title-link">RỘN RÀNG KHAI TRƯƠNG, RINH NGAY ƯU ĐÃI 20% TOÀN BỘ MENU ĐỒ ĂN</a>
                                     </h5>
                                 </div>
                             </div> 
@@ -367,16 +367,14 @@ function Home (props){
                         <div className="col-lg-4 col-md-4 col-12">
                             <div className="news-thumb mb-lg-0 mb-lg-4 mb-0">
                                 <a href="news-detail.html">
-                                    <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" className="img-fluid news-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/news/2023/04/19/resized/65393736_661120591021348_4470469688463196160_n_1681870833.jpg" className="img-fluid news-image" alt=""/>
                                 </a>
                                 
                                 <div className="news-text-info">
-                                    <span className="category-tag me-3 bg-info">Promotions</span>
-
-                                    <strong>8 April 2022</strong>
-
+                                    <span className="category-tag me-3 bg-info">Khuyến mại</span>
+                                    <strong>19/04/23</strong>
                                     <h5 className="news-title mt-2">
-                                        <a href="news-detail.html" className="news-title-link">Is Coconut good for you?</a>
+                                        <a href="news-detail.html" className="news-title-link">KHÁM PHÁ MẸT BÒ TƠ SIÊU HOT DÀNH...</a>
                                     </h5>
                                 </div>
                             </div> 
@@ -385,14 +383,14 @@ function Home (props){
                         <div className="col-lg-4 col-md-4 col-12">
                             <div className="news-thumb mb-lg-0 mb-lg-4 mb-2">
                                 <a href="news-detail.html">
-                                    <img src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" className="img-fluid news-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/news/2023/03/04/resized/78_1677900197.png" className="img-fluid news-image" alt=""/>
                                 </a>
                                 
                                 <div className="news-text-info">
-                                    <span className="category-tag">News</span>
-
+                                    <span className="category-tag">Mới</span>
+                                    <strong> 04/03/23</strong>
                                     <h5 className="news-title mt-2">
-                                        <a href="news-detail.html" className="news-title-link">Salmon Steak Noodle</a>
+                                        <a href="news-detail.html" className="news-title-link">THÀNH PHẦN DINH DƯỠNG</a>
                                     </h5>
                                 </div>
                             </div> 
@@ -401,16 +399,16 @@ function Home (props){
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" className="img-fluid news-image" alt=""/>
+                                    <img src="https://botoquanmoc.com/images/news/2023/01/11/resized/325072151_1354205105332398_6657784196248892336_n_1673403303.jpg" className="img-fluid news-image" alt=""/>
                                 </a>
                                 
                                 <div className="news-text-info">
-                                    <span className="category-tag me-3 bg-info">Meeting</span>
+                                    <span className="category-tag me-3 bg-info">Khuyến mại</span>
 
-                                    <strong>30 April 2022</strong>
+                                    <strong>11/01/23</strong>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="news-detail.html" className="news-title-link">Making a healthy salad</a>
+                                        <a href="news-detail.html" className="news-title-link">BÒ KHÔ MẮC KHÉN - QUÀ TẶNG ĐẶC BIỆT DỊP TẾT 2023</a>
                                     </h5>
                                 </div>
                             </div> 
